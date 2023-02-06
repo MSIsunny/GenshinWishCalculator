@@ -22,6 +22,12 @@ pnpm add mathjs -w
 ## 使用教程
 >在群里发送  计算/概率/期望 任一关键词即可查看使用帮助，内有详细使用教程
 
+<img width="350" src="https://github.com/MSIsunny/GenshinWishCalculator-plugin/blob/main/image/help.jpeg"> </img>
+
+>按照顺序提供数据即可以计算达到抽卡预期的概率
+
+<img width="350" src="https://github.com/MSIsunny/GenshinWishCalculator-plugin/blob/main/image/usage.jpeg"> </img>
+
 >注意：因为本插件的计算量比较大，为避免被用户滥用，默认不支持私聊，仅支持群聊使用
 
 ## 实现原理
