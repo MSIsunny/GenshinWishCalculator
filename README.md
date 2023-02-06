@@ -3,10 +3,10 @@
 ## 功能介绍
 >本插件可以根据玩家当前拥有纠缠之缘数目和角色池、武器池的水位、保底情况，计算出抽取指定数目五星up角色和特定的五星up武器的概率
 
->相同功能的插件还有一个[需要python的版本](https://github.com/MSIsunny/GenshinWishCalculator-py)，它的运行速度更快，计算所需时间约是该版本的十分之一
+>我同时还写了该插件的一个[需要python的版本](https://github.com/MSIsunny/GenshinWishCalculator-py)，它的运行速度更快，计算所需时间约是该版本的十分之一，但是安装过程较为麻烦
 
 ## 安装教程
->1、使用本插件需要安装mathjs库，打开终端运行以下命令进行安装
+1、使用本插件需要安装mathjs库，打开终端运行以下命令进行安装
 
 ```
 npm install mathjs
@@ -14,12 +14,12 @@ npm install mathjs
 
 >或者你可以参考[mathjs官网](https://mathjs.org/download.html)的说明进行安装
 
->2、给云崽添加mathjs的依赖，在云崽根目录下运行以下命令
+2、给云崽添加mathjs的依赖，在云崽根目录下运行以下命令
 
 ```
 pnpm add mathjs -w
 ```
->3、自行将WishCalculator.js文件放到example文件夹中，重启云崽即可使用
+3、自行将WishCalculator.js文件放到example文件夹中，重启云崽即可使用
 
 ## 使用教程
 >在群里发送  计算/概率/期望 任一关键词即可查看使用帮助，内有详细使用教程
